@@ -6,13 +6,13 @@ $(document).ready(function() {
             $(".boundary").addClass("youlose");
             boundary++;
             start = false;
-            $("#status").text("You Lose!😰😰😰 try Again");
+            $("#status").text("You Lose!");
         }
     });
     $("#end").mouseover(function() {
         if ($(".boundary:hover").length == 0 && boundary == 0) {
             start = false;
-            $("#status").text("You Won!🎊🎊🎊");
+            $("#status").text("You Won!");
         }
     });
     $(document).keypress(function(x) {
