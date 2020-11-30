@@ -46,7 +46,10 @@ nav a {
 }
 
 form {
-    position: fixed;
-    bottom: 20px;
+    position: fixed; 
     left: 20px;
+	padding:5px 10px;
+	background-image:blue;
+	  border: 1px solid #AAA;
+	
 }
